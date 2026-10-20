@@ -1,0 +1,27 @@
+{
+  "name": "rouge-parfum",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0",
+    "motion": "^12.23.0",
+    "lucide-react": "^0.468.0",
+    "@lottiefiles/dotlottie-react": "^0.17.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/three": "^0.180.0"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
