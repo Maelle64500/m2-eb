@@ -1,0 +1,11 @@
+.DS_Store
+.pnpm-store/
+node_modules/
+.next/
+out/
+.sites-runtime/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+/rouge-parfum.tar.gz
