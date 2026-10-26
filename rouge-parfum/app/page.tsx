@@ -21,7 +21,7 @@ export default function Home(){
   <div className="scene-glow"/><Bottle onReady={onReady} onError={onError}/>{failed&&<div className="model-error">Le flacon n’a pas pu être chargé.<button onClick={()=>location.reload()}>Réessayer</button></div>}
   <div className="side-mark">UNE PRÉSENCE. UNE OBSESSION.</div><div className="edition">ÉDITION 01 <span>—</span> 2026</div>
   <section className="hero" id="decouvrir">
-   <motion.div className="hero-intro" initial={{opacity:0,y:20}} animate={!loading?{opacity:1,y:0}:{}} transition={{duration:1,delay:.3}}><span className="eyebrow"><i/> LE TOUT NOUVEAU PARFUM QUI CLAQUE · BIENTÔT</span><h1>L’impatience<br/>a un <em>parfum.</em></h1></motion.div>
+   <motion.div className="hero-intro" initial={{opacity:0,y:20}} animate={!loading?{opacity:1,y:0}:{}} transition={{duration:1,delay:.3}}><span className="eyebrow"><i/> LE TOUT NOUVEAU PARFUM QUI CLAQUE SA RACE · BIENTÔT</span><h1>L’impatience<br/>a un <em>parfum.</em></h1></motion.div>
    <motion.div className="hero-word" style={{y:reduced?0:wordY}} aria-hidden="true">ROUGE</motion.div>
    <div className="hero-foot"><a className="scroll-link" href="#presence"><span className="circle"><ArrowDown size={18}/></span><span>FAITES DÉFILER<br/><b>LAISSEZ LE DÉSIR TOURNER.</b></span></a><div className="release"><span>IL NE RESTE QUE {days} JOURS.</span><p>24.12.2026 <Plus size={18}/></p></div></div>
   </section>
